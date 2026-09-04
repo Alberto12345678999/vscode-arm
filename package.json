@@ -45,16 +45,16 @@
 				"language": "arm",
 				"scopeName": "source.arm",
 				"path": "./syntaxes/arm.tmlanguage.json"
-			},
-			{
-  			"scopeName": "markdown.arm.codeblock",
-  			"path": "./syntaxes/markdown-arm-codeblock.tmLanguage.json",
-  			"injectTo": [
-    		"text.html.markdown"
-  			],
-  			"embeddedLanguages": {
-    			"meta.embedded.block.arm": "arm"
-  			}
+				},
+				{
+  				"scopeName": "markdown.arm.codeblock",
+  				"path": "./syntaxes/markdown-arm-codeblock.tmLanguage.json",
+  				"injectTo": [
+    			"text.html.markdown"
+  				],
+  				"embeddedLanguages": {
+    				"meta.embedded.block.arm": "arm"
+  				}
 			}
 		]
 	}
