@@ -2,7 +2,7 @@
 	"name": "arm",
 	"displayName": "Arm Assembly",
 	"description": "Arm assembly syntax support for Visual Studio Code",
-	"version": "1.7.4",
+	"version": "1.7.5",
 	"publisher": "dan-c-underwood",
 	"icon": "images/icon.png",
 	"author": {
@@ -45,6 +45,16 @@
 				"language": "arm",
 				"scopeName": "source.arm",
 				"path": "./syntaxes/arm.tmlanguage.json"
+			},
+			{
+  			"scopeName": "markdown.arm.codeblock",
+  			"path": "./syntaxes/markdown-arm-codeblock.tmLanguage.json",
+  			"injectTo": [
+    		"text.html.markdown"
+  			],
+  			"embeddedLanguages": {
+    			"meta.embedded.block.arm": "arm"
+  			}
 			}
 		]
 	}
